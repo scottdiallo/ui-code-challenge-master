@@ -1,0 +1,60 @@
+html{
+font-family: 'Crete Round', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.container {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+
+
+ /*optimizing to be mobile responsive*/
+
+
+/*ipad lanscape / small laptop*/
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+
+/*ipad potrait*/
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+/*iPhone landscape*/
+
+@media only screen and (max-width: 480px) {
+    .btn-1 ,.btn-2{
+        border: 1px solid black;
+        width: 18%;
+        font-size: .278em;
+    }
+
+    footer{
+        text-align: center;
+        font-size: .9em;
+    }
+}
+
+
+/*iPhone portrait*/
+
+@media only screen and (max-width: 320px) {
+
+}
