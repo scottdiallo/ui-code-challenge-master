@@ -18,7 +18,7 @@ a{
 .container {
    position: absolute;
    top: 50%;
-   margin-left: 40%;
+   margin-left: 30%;
    width: auto;
    color: #fff;
 }
@@ -27,6 +27,7 @@ a{
     width: 22%;
     font-size: 1.325em;
     text-align: center;
+    display: inline-block;
 }
 
 
@@ -43,15 +44,19 @@ a{
 /*ipad potrait*/
 
 @media only screen and (max-width: 768px) {
+    /*.processProductbtn{
+display: inline-block;
+ }*/
 
     .btn-1 ,.btn-2{
         border: 3px solid white;
-        width: 34%;
-        font-size: 1em;
+        width: 54%;
+        font-size: .9em;
         display: inline-block;
-        padding: 7.25px 6px;
+        /*padding: 7px 2px;*/
         font-weight: bold;
     }
+
 
     .image-1-header, .header-2-img
       {
@@ -60,13 +65,15 @@ a{
 
 .hero-text{
     width: auto;
-        font-size: 2rem;
+    font-size: 2rem;
 }
 
 .container{
 position: absolute;
     top: 50%;
     color: #fff;
+    margin-right: 15%;
+
 }
 
     footer{
@@ -83,16 +90,22 @@ position: absolute;
 /*iPhone landscape*/
 
 @media only screen and (max-width: 480px) {
+    .container{
+        top: 30%;
+        color: #fff;
+        margin-right: 5%;
 
+    }
+    .hero-text{
+        width: auto;
+        font-size: .5rem;
+    }
     .btn-1 ,.btn-2{
         border: 1px solid black;
-        width: 18%;
+        width: 48%;
         font-size: .278em;
     }
-    .image-1-header, .header-2-img
-      {
-        width: 99%;
-    }
+
 
 
     footer{
