@@ -1,5 +1,9 @@
 html{
 font-family: 'Crete Round', serif;
+box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 a{
@@ -13,11 +17,17 @@ a{
 
 .container {
    position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
+   top: 50%;
+   margin-left: 40%;
+   width: auto;
+   color: #fff;
 }
-
+.btn-1 ,.btn-2{
+    border: 1px solid #fff;
+    width: 22%;
+    font-size: 1.325em;
+    text-align: center;
+}
 
 
  /*optimizing to be mobile responsive*/
@@ -34,17 +44,52 @@ a{
 
 @media only screen and (max-width: 768px) {
 
+    .btn-1 ,.btn-2{
+        border: 1px solid black;
+        width: 18%;
+        font-size: .278em;
+    }
+
+    .image-1-header, .header-2-img
+      {
+        width: 98%;
+    }
+
+.hero-text{
+    width: auto;
+}
+
+.container{
+position: absolute;
+    top: 50%;
+    color: #fff;
+}
+
+    footer{
+        text-align: center;
+        font-size: .9em;
+    }
+
+    }
+
+
 }
 
 
 /*iPhone landscape*/
 
 @media only screen and (max-width: 480px) {
+
     .btn-1 ,.btn-2{
         border: 1px solid black;
         width: 18%;
         font-size: .278em;
     }
+    .image-1-header, .header-2-img
+      {
+        width: 99%;
+    }
+
 
     footer{
         text-align: center;

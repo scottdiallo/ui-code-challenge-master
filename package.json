@@ -1,0 +1,22 @@
+{
+  "name": "ui-code-challenge-master",
+  "version": "1.0.0",
+  "description": "Task: Develop an HTML page based off the design shown in `CodeChallenge.jpg`. Make sure it is responsive from mobile to larger screens, and pixel perfect to the design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottdiallo/ui-code-challenge-master.git"
+  },
+  "author": "Scott Dialo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottdiallo/ui-code-challenge-master/issues"
+  },
+  "homepage": "https://github.com/scottdiallo/ui-code-challenge-master#readme",
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  }
+}
