@@ -35,6 +35,18 @@ html, body {
   }
 }
 
+.bg-img {
+
+  background:
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 0, 0, 0.2),
+      rgba(155, 0, 0, 3)
+    ),
+    /* bottom, image */
+    url(image1.jpg);
+}
+
 
 
 a{
