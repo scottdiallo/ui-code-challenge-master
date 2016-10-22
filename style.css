@@ -14,20 +14,28 @@ a{
    position: relative;
    width: 100%; /* for IE 6 */
 }
+.image-1-header, .header-2-img
+  {
+    width: 98%;
+}
 
 .container {
    position: absolute;
-   top: 50%;
+   top: 22%;
    margin-left: 30%;
    width: auto;
    color: #fff;
 }
 .btn-1 ,.btn-2{
-    border: 1px solid #fff;
-    width: 22%;
+    border: 3px solid #fff;
+    padding: 0.3rem;
+    width: 38%;
     font-size: 1.325em;
     text-align: center;
     display: inline-block;
+}
+footer{
+    text-align: center;
 }
 
 
@@ -50,10 +58,8 @@ display: inline-block;
 
     .btn-1 ,.btn-2{
         border: 3px solid white;
-        width: 54%;
         font-size: .9em;
-        display: inline-block;
-        /*padding: 7px 2px;*/
+        padding-top:5px;
         font-weight: bold;
     }
 
@@ -65,12 +71,12 @@ display: inline-block;
 
 .hero-text{
     width: auto;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .container{
 position: absolute;
-    top: 50%;
+    top: -2%;
     color: #fff;
     margin-right: 15%;
 
@@ -91,24 +97,20 @@ position: absolute;
 
 @media only screen and (max-width: 480px) {
     .container{
-        top: 30%;
-        color: #fff;
-        margin-right: 5%;
-
+       margin-right: 15%;
     }
     .hero-text{
+        font-size: .2rem;
+letter-spacing: .9rem;   }
+    .btn-1, .btn-2{
+        border: 1px solid white;
         width: auto;
-        font-size: .5rem;
-    }
-    .btn-1 ,.btn-2{
-        border: 1px solid black;
-        width: 48%;
-        font-size: .278em;
     }
 
 
 
     footer{
+        margin-top: 200%;
         text-align: center;
         font-size: .9em;
     }
