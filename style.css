@@ -11,28 +11,13 @@ html, body {
   width: 100%;
   height: 100%;
 }
-.bg-img{
-    background: url('image1.jpg')center center no-repeat;
-}
+
 .bg-img-2{
     background: url('image2.jpg') center center no-repeat;
-
 }
 .bg-img, .bg-img-2 {
   width: 100%;
   height: 100%;
-  background-size: cover;
-
-  &:before {
-    content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-image: linear-gradient(to bottom left,#141d2b,#141d2b);
-	opacity: .6;
-  }
 }
 
 .bg-img {
@@ -40,8 +25,8 @@ html, body {
   background:
     /* top, transparent red */
     linear-gradient(
-      rgba(255, 0, 0, 0.2),
-      rgba(155, 0, 0, 3)
+      rgba(2, 0, 0, 0.2),
+      rgba(9, 32, 91, 8)
     ),
     /* bottom, image */
     url(image1.jpg);
