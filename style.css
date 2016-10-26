@@ -11,7 +11,19 @@ html, body {
   width: 100%;
   height: 100%;
 }
-
+.menu{
+list-style-type: none;
+border: 1px solid white;
+background-color: #fff;
+padding: 10px;
+font-size: 1.4rem;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li img{
+    float: right;
+}
 #svg-menu{
     position:fixed;
 }
