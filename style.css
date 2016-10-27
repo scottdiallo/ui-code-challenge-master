@@ -135,7 +135,12 @@ footer{
     /*.processProductbtn{
 display: inline-block;
  }*/
-
+ .arrowDown {
+     position: absolute;
+     margin-top: 7%;
+     margin-left: 65%;
+     cursor: pointer;
+ }
     .btn-1 ,.btn-2{
         border: 3px solid white;
         font-size: .9em;
