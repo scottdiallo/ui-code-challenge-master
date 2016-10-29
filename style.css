@@ -60,6 +60,19 @@ body{
 footer{
     text-align: center;
 }
+.callNmail{
+    text-align: center;
+    display: inline-flex;
+}
+.call, .mail{
+height: 33%;
+}
+.call{
+    padding-right: 20px;
+}
+.mail{
+    padding-left: 20px;
+}
 
 
 
