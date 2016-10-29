@@ -25,6 +25,7 @@ body{
     height: auto;
     list-style-type: none;
     background: rgba(255,255,255, 8);
+    padding: 5px 20px;
 }
 .navigation li{
     display: inline-block;
@@ -33,6 +34,7 @@ body{
 
 .toggle{
     text-decoration: none;
+    float: right;
     font-size: 30px;
     color:black;
     position(fixed, 20px 0 0 200px);
@@ -40,6 +42,8 @@ body{
 }
 .abcCreations{
     text-decoration: none;
+    font-size: 30px;
+    color: black;
 }
 /*center the text no matter how big a viewport is //tip from devTips*/
 .container{
