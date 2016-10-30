@@ -44,6 +44,7 @@ body{
     text-decoration: none;
     font-size: 30px;
     color: black;
+    cursor: pointer;
 }
 /*center the text no matter how big a viewport is //tip from devTips*/
 .container{
@@ -56,6 +57,10 @@ body{
     padding-top: 50%;
     margin-top: -443px;
     color: #fff;
+}
+.hero-text{
+    line-height: 45px;
+    letter-spacing: 4px;
 }
 
 
@@ -132,6 +137,8 @@ height: 33%;
     }
     .hero-text{
         font-size: 1.5em;
+        line-height: 30px;
+        letter-spacing: 2px;
     }
     .arrowDown{
         margin-top: -30%;
@@ -150,6 +157,9 @@ height: 33%;
 
     .hero-text{
         font-size: 1rem;
+        font-size: 1.5em;
+        line-height: 33px;
+        letter-spacing: 3px;
     }
 }
 @media (min-width:541px) and (max-width:768px) {
@@ -157,7 +167,7 @@ height: 33%;
         background:#27ae60;
     }
     .container{
-        padding-top: 91%;
+        padding-top: 90%;
     }
     .hero-text{
         font-size: 1.3rem;
