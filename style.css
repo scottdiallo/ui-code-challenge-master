@@ -74,12 +74,13 @@ body{
 .arrowDown{
     position: absolute;
     color: #fff;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.2);
     height: 8%;
     border-radius: 5px;
         margin-top: -15%;
         margin-left: 50%;
     transform: translate(-50%);
+    cursor: pointer;
 
 }
 .bg-img {
@@ -198,5 +199,10 @@ height: 33%;
 
 }
 @media (min-width:1201px){
-    body{background:#ffd700;}
+    body{
+        background:#ffd700;
+    }
+    .arrowDown{
+        margin-top: -7%;
+    }
 }
