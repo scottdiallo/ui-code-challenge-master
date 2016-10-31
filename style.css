@@ -64,6 +64,7 @@ body{
 }
 
 
+
 #bg-img-2{
     background: url('image2.jpg')no-repeat;
 }
@@ -81,8 +82,12 @@ body{
         margin-left: 50%;
     transform: translate(-50%);
     cursor: pointer;
-
 }
+/*on hover effect to animate the arrow */
+.arrowDown:hover{
+background: #fff;
+}
+
 .bg-img {
     background-size: cover;
   background:
