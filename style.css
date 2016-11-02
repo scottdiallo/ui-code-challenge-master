@@ -58,6 +58,10 @@ body{
     margin-top: -443px;
     color: #fff;
 }
+
+span{
+    font-weight: bolder;
+}
 .hero-text{
     line-height: 45px;
     letter-spacing: 4px;
