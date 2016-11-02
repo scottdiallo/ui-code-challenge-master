@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="parallax.min.js">
+
+</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,8 +37,9 @@
     </div>
 </header>
 
+<div class="parallax-window" data-parallax="scroll" data-image-src="image1.jpg"></div>
 
-<div class="bg-img">
+<div class="bg-img"  >
     <!-- <a href="#bg-img-2">
          <img class="arrowDown" src="arrowDown.png" alt="arrowDown" />
      </a> -->
@@ -52,11 +56,21 @@
     <div class="callNmail">
 
         <a href="tel:+14153044970">
-            <img class="call" src="call.png"/>
+            <img class="call call-text" src="call.png"/>
         </a>
 
         <a href="mailto:scott.diallo6@gmail.com?Subject=Hello%20Scott" target="_top">
-            <img class="mail" src="mail.png"/>
+            <img class="mail mail-text" src="mail.png"/>
+        </a>
+    </div>
+    <!--show these when view on screens larger than 1025px-->
+    <div class="callNmail-lrg-screens">
+
+        <a href="tel:+14153044970">Tel: 415-304-4970
+        </a>
+&nbsp &nbsp &nbsp
+
+        <a href="mailto:scott.diallo6@gmail.com?Subject=Hello%20Scott" target="_top">Send E-mail
         </a>
     </div>
 </footer>

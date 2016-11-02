@@ -16,6 +16,11 @@ body{
 *, *:before, *:after {
   box-sizing: inherit;
 }
+/*parallax animation effect*/
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
 
 /*styling up the navigation bar*/
 .navigation{
@@ -107,7 +112,7 @@ background: #fff;
     ),
 
     /* bottom, image */
-    url(image1.jpg);
+    url(image1.jpg );
 }
 
 .processProduction{
@@ -201,8 +206,11 @@ height: 33%;
     .hero-text{
         font-size: 1.5rem;
     }
-    .btn-1{
-        margin-right: 10px;
+    /*.btn-1{
+        margin-right: 20px;
+    }*/
+    .mail, .call{
+        display: hide;
     }
 }
 @media (min-width:1025px) and (max-width:1200px) {
@@ -211,6 +219,9 @@ height: 33%;
         .container{
             padding-top: 56%;
         }
+        .call, .mail{
+    display: none;
+       }
 
 }
 @media (min-width:1201px){
@@ -220,4 +231,7 @@ height: 33%;
     .arrowDown{
         margin-top: -7%;
     }
+    .call, .mail{
+display: none;
+   }
 }
