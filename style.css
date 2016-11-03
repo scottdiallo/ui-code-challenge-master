@@ -161,10 +161,12 @@ height: 33%;
         line-height: 30px;
         letter-spacing: 2px;
     }
+    /*hide the arrow @ 450px let user scroll up/down using their finger*/
     .arrowDown{
-        margin-top: -30%;
-        margin-left: 50%;
-    transform: translate(-50%);
+        display: none;
+    }
+    .callNmail-lrg-screens{
+        display: none;
     }
 }
 @media (min-width:451px) and (max-width:540px) {
@@ -182,6 +184,9 @@ height: 33%;
         line-height: 33px;
         letter-spacing: 3px;
     }
+    .callNmail-lrg-screens{
+        display: none;
+    }
 }
 @media (min-width:541px) and (max-width:768px) {
     body{
@@ -192,6 +197,9 @@ height: 33%;
     }
     .hero-text{
         font-size: 1.3rem;
+    }
+    .callNmail-lrg-screens{
+        display: none;
     }
 
 }
@@ -206,11 +214,8 @@ height: 33%;
     .hero-text{
         font-size: 1.5rem;
     }
-    /*.btn-1{
-        margin-right: 20px;
-    }*/
-    .mail, .call{
-        display: hide;
+    .callNmail-lrg-screens{
+        display: none;
     }
 }
 @media (min-width:1025px) and (max-width:1200px) {
