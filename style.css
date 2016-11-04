@@ -16,12 +16,9 @@ body{
 *, *:before, *:after {
   box-sizing: inherit;
 }
-/*parallax animation effect*/
-.parallax-window {
-    /*background: transparent;*/
-}
 
-/*styling up the navigation bar*/
+
+/*styling for the navigation bar*/
 .navigation{
     position: fixed;
     border: 2px solid #fff;
@@ -104,13 +101,11 @@ background: #fff;
 .bg-img {
     background-size: cover;
   background:
-    /* top, transparent red */
     linear-gradient(
       rgba(63,81,181,0.5),
       rgba(1,4,21,0.9)
     ),
 
-    /* bottom, image */
     url(image1.jpg );
 }
 
@@ -153,7 +148,7 @@ height: 33%;
  /*optimizing to be mobile responsive*/
 @media (max-width:450px) {
     body{
-        background:#8e44ad;
+        /*background:#8e44ad;*/
     }
     .container{
         padding-top: 130%;
@@ -176,7 +171,7 @@ height: 33%;
 }
 @media (min-width:451px) and (max-width:540px) {
     body{
-        background:#2980b9;
+        /*background:#2980b9;*/
     }
     .container{
         padding-top: 100%;
@@ -198,7 +193,7 @@ height: 33%;
 }
 @media (min-width:541px) and (max-width:768px) {
     body{
-        background:#27ae60;
+        /*background:#27ae60;*/
     }
     .container{
         padding-top: 90%;
@@ -214,7 +209,7 @@ height: 33%;
 
 @media (min-width:769px) and (max-width:1024px) {
     body{
-        background:#16a085;
+        /*background:#16a085;*/
     }
     .container{
         padding-top: 65%;
@@ -227,7 +222,8 @@ height: 33%;
     }
 }
 @media (min-width:1025px) and (max-width:1200px) {
-    body{background:#c0392b;
+    body{
+        /*background:#c0392b;*/
     }
         .container{
             padding-top: 56%;
@@ -239,7 +235,7 @@ height: 33%;
 }
 @media (min-width:1201px){
     body{
-        background:#ffd700;
+        /*background:#ffd700;*/
     }
     .arrowDown{
         margin-top: -7%;
