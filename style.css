@@ -18,8 +18,7 @@ body{
 }
 /*parallax animation effect*/
 .parallax-window {
-    min-height: 400px;
-    background: transparent;
+    /*background: transparent;*/
 }
 
 /*styling up the navigation bar*/
@@ -130,6 +129,9 @@ background: #fff;
 footer{
     text-align: center;
 }
+.callNmail-lrg-screens a{
+    text-decoration: none;
+}
 .callNmail{
     text-align: center;
     display: inline-flex;
@@ -168,6 +170,9 @@ height: 33%;
     .callNmail-lrg-screens{
         display: none;
     }
+    .image2 img{
+        width: 100%;
+    }
 }
 @media (min-width:451px) and (max-width:540px) {
     body{
@@ -183,6 +188,9 @@ height: 33%;
         font-size: 1.5em;
         line-height: 33px;
         letter-spacing: 3px;
+    }
+    .image2 img{
+        width: 100%;
     }
     .callNmail-lrg-screens{
         display: none;
