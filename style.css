@@ -140,8 +140,42 @@ height: 33%;
     padding-left: 20px;
 }
 
+/*parallax effect goes here*/
+.parallax {
+    /* The image used */
+    background-image: url('https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=623650f2925b8a0655b41ee89eae54d4');
 
+    /* Full height */
+    height: 100%;
 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    /* The image used */
+    background-image: url('image2.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2{
+    background:
+      linear-gradient(
+        rgba(63,81,181,0.5),
+        rgba(1,4,21,0.9)
+      ),
+      url(image1.jpg );
+}
 
 
  /*optimizing to be mobile responsive*/
